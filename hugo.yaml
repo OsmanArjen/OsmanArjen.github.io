@@ -33,7 +33,7 @@ params:
       url: /about
   umami:
     enable: true
-    websiteId: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    websiteId: e3529685-ff6f-4054-a316-830ffd36e583 
     jsLocation: /analytics.js
 caches:
   images:
