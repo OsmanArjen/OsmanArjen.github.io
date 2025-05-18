@@ -1,0 +1,43 @@
+baseURL: https://OsmanArjen.github.io
+languageCode: en-us
+title: Osman Arjen
+theme: typo
+taxonomies:
+  tag: tags
+params:
+  description: Osman Arjen's Homepage In the WWW
+  theme: auto
+  faviconPath: /favicon
+  colorPalette: default
+  hideHeader: true
+  footerContent: ©2025
+  homeIntroTitle: Hi!
+  homeIntroContent: |
+    Hey, I'm Osman Arjen. I am interested in game (engine) development and Computer Science in general.
+  homeCollectionTitle: Posts
+  homeCollection: posts
+  paginationSize: 20
+  listSummaries: false
+  breadcrumbs: true
+  social:
+    - name: github
+      url: https://github.com/OsmanArjen
+    - name: linkedin
+      url: https://www.linkedin.com/in/OsmanArjen
+  menu:
+    - name: home
+      url: /
+    - name: posts
+      url: /posts
+    - name: about
+      url: /about
+  umami:
+    enable: true
+    websiteId: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    jsLocation: /analytics.js
+caches:
+  images:
+    dir: :cacheDir/images
+markup:
+  highlight:
+    style: algol
