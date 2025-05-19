@@ -1,6 +1,6 @@
 baseURL: https://OsmanArjen.github.io
 languageCode: en-us
-title: Osman Arjen
+title: The Virtual Sanctuary
 theme: typo
 taxonomies:
   tag: tags
@@ -11,10 +11,12 @@ params:
   colorPalette: default
   hideHeader: true
   footerContent: ©2025
-  homeIntroTitle: Hi!
+  homeIntroTitle: Welcome!
   homeIntroContent: |
-    Hey, I'm Osman Arjen. I am interested in game (engine) development and Computer Science in general.
-  homeCollectionTitle: Posts
+    I'm Osman Arjen. I am interested in game (engine) development and Computer Science in general.
+    I primarily work with ***C++***, so you'll see it featured in most of the posts.
+    Also you might find a different style of introduction in my *about* page :D.
+  homeCollectionTitle: ":: Posts ::"
   homeCollection: posts
   paginationSize: 20
   listSummaries: false
@@ -22,8 +24,6 @@ params:
   social:
     - name: github
       url: https://github.com/OsmanArjen
-    - name: linkedin
-      url: https://www.linkedin.com/in/OsmanArjen
   menu:
     - name: home
       url: /
